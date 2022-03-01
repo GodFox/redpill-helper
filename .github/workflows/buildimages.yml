@@ -44,8 +44,13 @@ jobs:
       - name: build ds918 7.0.1
         run: |
           ./rp-helper.sh build apollolake-7.0.1-42218
-          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://raw.githubusercontent.com/jimmyGALLAND/redpill-ext/master/virtio/rpext-index.json
-          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://raw.githubusercontent.com/jimmyGALLAND/redpill-ext/master/acpid/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/jumkey/redpill-load/raw/develop/redpill-virtio/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/pocopico/rp-ext/raw/main/e1000e/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/pocopico/rp-ext/raw/main/vmxnet3/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/pocopico/rp-ext/raw/main/mpt3sas/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/pocopico/rp-ext/raw/main/ixgbe/rpext-index.json
+          ./rp-helper.sh ext apollolake-7.0.1-42218 add https://github.com/pocopico/rp-ext/raw/main/r8125/rpext-index.json
 
       - name: create ds918 7.0.1 image
         run: |
