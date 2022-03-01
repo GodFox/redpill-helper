@@ -8,10 +8,6 @@
     "SataPortMap": "666",
     "SasIdxMap": "0"
   },
-  "synoinfo": {
-    "maxdisks" : "16",
-    "internalportcfg" : "0xfffe",
-    "esataportcfg" : "0x0001"
-  },
+  "synoinfo": {},
   "ramdisk_copy": {}
 }
