@@ -4,7 +4,7 @@
     "pid": "0x0001",
     "sn": "1234XXX123",
     "mac1": "XXYYXXYYXXYY",
-    "DiskIdxMap": "0B0600",
+    "DiskIdxMap": "06000C",
     "SataPortMap": "666",
     "SasIdxMap": "0"
   },
