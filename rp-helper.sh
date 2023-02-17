@@ -107,9 +107,7 @@ function runContainer(){
             BINDS+="--volume $(realpath "${HOST_PATH}"):${CONTAINER_PATH} "
         done
     fi
-    echo ${REDPILL_LOAD_CACHE}
-    pwd
-    ls
+
     docker run --privileged --rm  $( [ "${CMD}" == "run" ] || [ "${CMD}" == "ext" ] && echo " --interactive") \
         --name rp-helper \
         --hostname rp-helper \
